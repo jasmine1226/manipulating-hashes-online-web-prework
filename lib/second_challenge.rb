@@ -7,6 +7,5 @@ def second_challenge
   }
 
   #code your solution here!
-  list = groceries.values
-  return list
+  list = groceries.values.flatten
 end
